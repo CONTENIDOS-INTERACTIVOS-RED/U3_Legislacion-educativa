@@ -1,0 +1,57 @@
+
+.banner-principal-decorativo
+  &-1
+    animation: float1 3.5s ease-in-out infinite alternate
+    position: absolute
+    top: 40%
+    right: 50%
+  &-2
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 51%
+    right: 30%
+
+@keyframes float1
+  0%
+    transform: translateY(20px)
+
+  100%
+    transform: translateY(0px)
+
+.container.tarjeta
+  overflow-y: hidden
+
+// ACORDEON
+.acordion__header
+  background-color: #EBE9F0 !important
+  i
+	  font-weight: 600 !important
+  h4
+    font-weight: 400 !important
+.acordion__contenido
+  background-color: #EBE9F0 !important  
+.acordion__header--active
+  background-color: #453179!important
+  h4, i
+    font-weight: bold !important
+    color: white !important
+
+.bg-fondo
+  &-1
+    background-image: url("../assets/componentes/bg-1.png") !important
+    background-position: top
+  &-2
+    background-image: url("../assets/componentes/bg-2.png") !important
+    background-position: top
+
+.bg-azul
+  background-color: #DCE8FA
+
+.bg-amarillo
+  background-color: #FCF9E5
+
+.bg-gris
+  background-color: #D9D5E3
+
+.bg-morado
+  background-color: #453179
