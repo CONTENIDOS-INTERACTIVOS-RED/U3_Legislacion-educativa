@@ -22,9 +22,9 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 Desde sus inicios, la educación ha sido reconocida como un pilar fundamental para el desarrollo y bienestar de las sociedades. En Colombia, este derecho se encuentra garantizado por la Constitución Política, la cual establece que la educación es un servicio público esencial que promueve la equidad y el progreso social.
+              p.descripcion.mb-4 Desde sus inicios, la educación ha sido un derecho fundamental para el desarrollo de las sociedades. En Colombia, este derecho se encuentra protegido por un sólido marco normativo que busca garantizar la equidad, la calidad y el acceso universal a la educación. La legislación educativa no solo regula los procesos académicos, sino también los derechos y responsabilidades de los actores educativos, asegurando que el sistema educativo responda a las necesidades de los estudiantes y de la sociedad en su conjunto.
 
-              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold ¡Prepárese para comprender cómo la normativa educativa impacta en el presente y futuro de la sociedad colombiana!
+              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold ¡Prepárese para fortalecer sus conocimientos en legislación educativa y contribuir a la construcción de un sistema educativo más justo y equitativo!
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")

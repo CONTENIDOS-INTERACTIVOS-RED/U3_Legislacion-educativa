@@ -16,9 +16,8 @@ export default {
         imagen: require('@/assets/curso/banner-principal-decorativo-2.svg'),
       },
     ],
-    numeroUnidad: '1',
-    tituloUnidad:
-      'Estructura de las normas en Colombia. Constitución Política de Colombia, Decreto 1075 del 2015',
+    numeroUnidad: '3',
+    tituloUnidad: 'Normativas vigentes en educación',
   },
   menuPrincipal: {
     menu: [
@@ -32,20 +31,26 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Constitución Política de Colombia',
+        titulo: 'Ley 115 de 1994: Ley General de Educación',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Principios fundamentales ',
+            titulo: 'Estructura del sistema educativo',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Derechos fundamentales ',
+            titulo: 'Derechos y responsabilidades de los actores educativos',
             hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo: 'Principios y fines de la educación en Colombia',
+            hash: 't_1_3',
           },
         ],
       },
@@ -53,31 +58,91 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Objetivos de la educación en Colombia',
+        titulo: 'Decreto 2247 de 1997',
         desarrolloContenidos: true,
-        subMenu: [],
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: 'Organización del nivel preescolar',
+            hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Proyecto educativo',
+            hash: 't_2_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.3',
+            titulo: 'Continuidad educativa',
+            hash: 't_2_3',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo:
-          'Decreto 1075 del 2015 (Decreto Reglamentario Único del Sector Educación)',
+        titulo: 'Ley 1098 del 2006: Código de la Infancia y la Adolescencia',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo: 'Marco normativo y su importancia en el sector educativo',
+            titulo: 'Derechos de los niños y adolescentes en educación',
             hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo: 'Normas generales para el sector educativo',
+            titulo: 'Protección integral en las instituciones educativas',
             hash: 't_3_2',
           },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.3',
+            titulo: 'Responsabilidades de los establecimientos educativos',
+            hash: 't_3_3',
+          },
         ],
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Decreto 1290 del 2009: Sistema de Evaluación del Estudiante ',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.1',
+            titulo: 'Fundamentos y principios del sistema de evaluación',
+            hash: 't_4_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.2',
+            titulo: 'Modalidades de evaluación',
+            hash: 't_4_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.3',
+            titulo: 'Responsabilidades de los docentes en la evaluación',
+            hash: 't_4_3',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema5',
+        icono: 'far fa-file-alt',
+        numero: '5',
+        titulo:
+          'Ley 1620 del 2013: Ley de Convivencia Escolar y Decreto 1421 del 2017',
+        desarrolloContenidos: true,
+        subMenu: [],
       },
       {
         nombreRuta: 'sintesis',
@@ -117,109 +182,149 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'Blanco White, J. M. & Viñao, A. (Il.). (2014). Sobre educación. Biblioteca Nueva.',
+      link: 'https://elibro.net/es/lc/elibrocom/titulos/105925',
+    },
+    {
+      referencia:
+        'Luque de la Rosa, A. (Coord.), Hervás-Gómez, C. (Coord.) & López Catalán, L. (Coord.). (2022). Aprendizaje y formación experiencial (1 ed.). Dykinson.',
+      link: 'https://elibro.net/es/lc/elibrocom/titulos/227633',
+    },
+    {
+      referencia:
+        'Congreso de la República. (1994). Ley 115 de 1994: Ley General de Educación. Diario Oficial No. 41.214.',
+      link: 'https://www.mineducacion.gov.co/',
+    },
+    {
+      referencia:
+        'Ministerio de Educación Nacional. (1997). Decreto 2247 de 1997.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://www.suin-juriscol.gov.co/viewDocument.asp?ruta=Decretos/1425277',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
+        'Osorio, M., & Herrera, M. (2013). Educación preescolar en Colombia: Estructura del currículo y modelo pedagógico didáctico. Universidad del Norte.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'https://books.google.com.mx/books?id=OrFCDwAAQBAJ&lpg=PP1&ots=Tdvl_6Zpbn&dq=Fundamentos%20de%20la%20educaci%C3%B3n%20preescolar%20en%20colombia&lr&hl=es&pg=PP1#v=onepage&q=Fundamentos%20de%20la%20educaci%C3%B3n%20preescolar%20en%20colombia&f=false',
     },
     {
       referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
+        'Carrasco, M. E. D. (2011). Aprendo con el juego en mi aula de educación infantil. Pedagogía magna, (11), 373-381.',
+      link: 'https://dialnet.unirioja.es/servlet/articulo?codigo=3629257',
     },
     {
       referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+        'Rojas, M. A. M., & Ruíz, M. T. S. (2017). Fortalecimiento de la creatividad en la educación preescolar orientado por estrategias pedagógicas basadas en el arte y la literatura infantil. Zona próxima: revista del Instituto de Estudios Superiores en Educación, (26), 61-81.',
+      link: 'https://dialnet.unirioja.es/servlet/articulo?codigo=6416725',
+    },
+    {
+      referencia:
+        'Gil Álvarez, J. L. & Morales Cruz, M. (2018). Evaluación y calidad de la educación. Editorial Universo Sur.',
+      link: 'https://elibro.net/es/lc/elibrocom/titulos/120857',
+    },
+    {
+      referencia:
+        'Simari, G. (2010). Derechos de niños, niñas y jóvenes. MV Ediciones S.R.L.',
+      link: 'https://elibro.net/es/lc/elibrocom/titulos/78867',
+    },
+    {
+      referencia:
+        'Congreso de la República de Colombia. (2006). Ley 1098 de 2006: Código de la Infancia y la Adolescencia.',
+      link: 'https://www.icbf.gov.co/cargues/avance/docs/ley_1098_2006.htm',
+    },
+    {
+      referencia:
+        'Ministerio de Educación Nacional. (2009). Decreto 1290 de 2009. Por el cual se reglamenta la evaluación del aprendizaje y promoción de los estudiantes de los niveles de educación básica y media.',
+      link: 'https://www.mineducacion.gov.co',
+    },
+    {
+      referencia:
+        'Germán, G. (2021). La convivencia democrática en la escuela (1 ed.). Editorial Brujas.',
+      link: 'https://elibro.net/es/lc/elibrocom/titulos/219959',
+    },
+    {
+      referencia:
+        'Navarrete Cazales, Z. (Coord.). (2022). Inclusión en educación (1 ed.). Plaza y Valdés (México).',
+      link: 'https://elibro.net/es/lc/elibrocom/titulos/225041',
+    },
+    {
+      referencia:
+        "Ley 1620 de 2013, 'Por la cual se establece el régimen de convivencia escolar y se dictan otras disposiciones', Congreso de la República de Colombia.",
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=52287',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
+        'Ministerio de Educación Nacional. (2017). Decreto 1421 de 2017. Fortalecimiento de la formación docente.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
-    },
-    {
-      referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
-    },
-    {
-      referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=87040',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Decreto 1290 de 2009',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'Normativa que establece los lineamientos sobre la evaluación de los aprendizajes de los estudiantes en el sistema educativo colombiano, incluyendo las disposiciones para la promoción y repitencia.',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'Decreto 1421 de 2017',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Establece la organización y funcionamiento de los establecimientos educativos en Colombia, especificando sus responsabilidades y el marco para la inclusión de estudiantes con discapacidad.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Ley 1098 de 2006',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'Ley que establece el código de infancia y adolescencia, regulando los derechos y garantías de los menores en el contexto educativo y otros ámbitos de la vida social.',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'Ley 115 de 1994',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Ley general de educación en Colombia, que establece los principios y normas básicas para la educación en el país, regulando el sistema educativo y el acceso a la educación de calidad.',
     },
     {
-      termino: 'Moda',
+      termino: 'Ley 1620 de 2013',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'Ley que establece las políticas para la convivencia escolar en Colombia, promoviendo el respeto por los derechos humanos, la paz y la resolución pacífica de los conflictos en las instituciones educativas.',
     },
     {
-      termino: 'Diseña',
+      termino: 'Planeación Educativa',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Proceso mediante el cual se organizan y estructuran los objetivos, contenidos, métodos y recursos para llevar a cabo los procesos de enseñanza-aprendizaje en el ámbito educativo.',
     },
     {
-      termino: 'DIseño',
+      termino: 'Planeación Institucional',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Proceso organizativo de las instituciones educativas para establecer objetivos, metas y acciones, garantizando la calidad en la prestación del servicio educativo.',
     },
     {
-      termino: 'Tipología',
+      termino: 'Responsabilidad Institucional',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'Compromiso de las instituciones educativas para ofrecer educación de calidad, cumplir con las normativas establecidas y garantizar el bienestar y desarrollo integral de los estudiantes.',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'Sector Educativo Privado',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'Conjunto de instituciones educativas que no dependen del estado, sino que son gestionadas y financiadas por entidades o particulares, pero deben cumplir con las normativas nacionales.',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'Sector Educativo Público',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Conjunto de instituciones educativas que son gestionadas, financiadas y reguladas por el estado, y cuya finalidad es garantizar el acceso y la calidad educativa a todos los ciudadanos.',
     },
     {
-      termino: 'Interseccionalidad',
+      termino: 'Vinculación Docente',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Proceso mediante el cual se asignan los docentes a las instituciones educativas, ya sea en el sector público o privado, de acuerdo con las normativas y necesidades de cada institución.',
     },
     {
-      termino: 'Interés superior del menor',
+      termino: 'Normativa Educativa',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Conjunto de leyes, decretos y reglamentos que rigen el funcionamiento y la organización del sistema educativo de un país, estableciendo los derechos, deberes y responsabilidades de los actores educativos.',
+    },
+    {
+      termino: 'Normas de Evaluación',
+      significado:
+        'Conjunto de directrices y procedimientos establecidos por las autoridades educativas para valorar el aprendizaje de los estudiantes, garantizar su desarrollo académico y la calidad de la enseñanza.',
     },
   ],
   complementario: [

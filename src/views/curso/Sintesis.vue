@@ -2,9 +2,9 @@
 .curso-main-container.creditos-vista
   BannerInterno(subTitulo="SÍNTESIS")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-4.mb-md-5 La unidad I:  Introducción al derecho y sus fuentes, establece los fundamentos teóricos esenciales para comprender el origen de las normas jurídicas y su aplicación. 
+    p.mb-4.mb-md-5 La Unidad 3: Normativas vigentes en educación, proporciona un marco fundamental para comprender las leyes y decretos que regulan el sistema educativo en Colombia, garantizando una educación inclusiva, de calidad y equitativa. Esta unidad se centra en analizar normativas esenciales como la Ley 115 de 1994, el Decreto 2247 de 1997, la Ley 1098 de 2006, el Decreto 1290 de 2009, la Ley 1620 de 2013 y el Decreto 1421 de 2017, que establecen los principios, derechos y responsabilidades de los actores educativos. Además, se enfatizan aspectos relacionados con la planeación institucional y los procesos de vinculación docente, tanto en el sector público como en el privado, destacando la importancia de la protección integral de los estudiantes y la promoción de ambientes escolares seguros. Este enfoque permite a los estudiantes adquirir conocimientos legales que les permitirán aplicar las normativas educativas en su ejercicio profesional, contribuyendo a la creación de un sistema educativo más justo y alineado con los principios de inclusión y equidad.
     figure
-      img(src='@/assets/componentes/sintesis-test.png', alt='Texto que describa la imagen')
+      img(src='@/assets/componentes/sintesis.png', alt='Texto que describa la imagen')
     
 
 </template>
