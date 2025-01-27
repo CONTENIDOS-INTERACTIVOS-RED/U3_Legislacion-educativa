@@ -19,9 +19,9 @@
     .row.mb-4
       .col-12.col-md-10.col-lg-7.col-xl-6.mx-auto.ms-xl-auto(data-aos="fade-left")
         TarjetaAudio.color-primario.bg-white.mb-3(
-              texto="Proceso de descarga de MySQL Server Community y MySQL Workbench"
+              texto="Organización del nivel preescolar."
               tiempo
-              :audio="require('../../assets/componentes/audios/audio-ej.mp3')"
+              :audio="require('../../assets/componentes/audios/Podcast_contenido_unidad_III_Legislación educativa en Colombia.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
         )
       .d-none.d-lg-block.col-5.col-md-4(data-aos="fade-right")

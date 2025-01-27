@@ -92,11 +92,11 @@
         .h5.mb-2 1. Prevención de vulneraciones de derechos
         p La prevención se entiende como la implementación de estrategias pedagógicas y organizativas que reduzcan los riesgos que puedan afectar el bienestar de los estudiantes. Esto incluye, por ejemplo, la creación de programas de prevención del acoso escolar, el fortalecimiento de habilidades socioemocionales y la promoción de la igualdad de género en el aula. Además, los establecimientos están obligados a identificar y reportar posibles situaciones de riesgo, como maltrato infantil o explotación, activando las rutas de atención correspondientes en colaboración con entidades como el Instituto Colombiano de Bienestar Familiar (ICBF).   
       .tarjeta.bg-white.p-4(x="82%" y="56%" numero="+")
-        .h5.mb-2 2. Garantía del acceso y permanencia en el sistema educativo
-        p Los establecimientos educativos deben asegurar que todos los niños y adolescentes puedan ejercer su derecho a la educación, sin discriminación alguna. Esto implica flexibilizar las normas de matrícula, ofrecer apoyo adicional a estudiantes en situación de vulnerabilidad y trabajar para prevenir la deserción escolar, especialmente en contextos de pobreza o exclusión social. Es importante señalar que el Artículo 31 de la Ley resalta que ninguna niña, niño o adolescente puede ser privado de este derecho debido a circunstancias económicas, familiares o sociales.    
-      .tarjeta.bg-white.p-4(x="84%" y="21%" numero="+")
         .h5.mb-2 3. Promoción de la protección integral
         p Como parte de su labor, las instituciones educativas tienen la responsabilidad de fomentar ambientes libres de violencia, abuso y explotación. Para ello, deben establecer protocolos claros para la gestión de conflictos, garantizar la capacitación constante del personal docente y administrativo, y coordinarse con autoridades locales y nacionales en caso de emergencias que pongan en riesgo a los estudiantes.
+      .tarjeta.bg-white.p-4(x="84%" y="21%" numero="+")
+        .h5.mb-2 2. Garantía del acceso y permanencia en el sistema educativo
+        p Los establecimientos educativos deben asegurar que todos los niños y adolescentes puedan ejercer su derecho a la educación, sin discriminación alguna. Esto implica flexibilizar las normas de matrícula, ofrecer apoyo adicional a estudiantes en situación de vulnerabilidad y trabajar para prevenir la deserción escolar, especialmente en contextos de pobreza o exclusión social. Es importante señalar que el Artículo 31 de la Ley resalta que ninguna niña, niño o adolescente puede ser privado de este derecho debido a circunstancias económicas, familiares o sociales.    
     .row.bg-amarillo.bg-full-width.mb-4
       div.px-5.pb-md-3.py-4.d-flex
 
